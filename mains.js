@@ -1,31 +1,33 @@
 alert('Ola Mundo');
 function tocaSomPom(){
 document.querySelector('#som_tecla_pom').play();
-document.querySelector('.tecla_pom').onclick=tocaSomPom;}
+ document.querySelector('.tecla_pom').onclick=tocaSomPom;}
 
 function tocaSomClap(){
     document.querySelector('#som_tecla_clap').play();
-  document.querySelector('.tecla_clap').onclick=tocaSomClap;}
+    document.querySelector('.tecla_clap').onclick=tocaSomClap;}
 
  function tocaSomTim(){
     document.querySelector('#som_tecla_tim').play();
- document.querySelector('.tecla_tim').onclick=tocaSomTim;}
+     document.querySelector('.tecla_tim').onclick=tocaSomTim;}
 
  function tocaSomPuff(){
      document.querySelector('#som_tecla_puff').play();
- document.querySelector('.tecla_puff').onclick=tocaSomPuff;}
+      document.querySelector('.tecla_puff').onclick=tocaSomPuff;}
 
  function tocaSomSplash(){
     document.querySelector('#som_tecla_splash').play();
- document.querySelector('.tecla_splash').onclick=tocaSomSplash;}
-    
+     document.querySelector('.tecla_splash').onclick=tocaSomSplash;}
+     
+
 function tocaSomToim(){
    document.querySelector('#som_tecla_toim').play();
- document.querySelector('.tecla_toim').onclick=tocaSomToim;}
+    document.querySelector('.tecla_toim').onclick=tocaSomToim;}
 
  function tocaSomPsh(){
     document.querySelector('#som_tecla_psh').play();
-    document.querySelector('.tecla_psh').onclick=tocaSomPsh;}
+     document.querySelector('.tecla_psh').onclick=tocaSomPsh;}
+     
 
     function tocaSomTic(){
         document.querySelector('#som_tecla_tic').play();
@@ -33,6 +35,6 @@ function tocaSomToim(){
 
         function tocaSomTom(){
             document.querySelector('#som_tecla_tom').play();
-            document.querySelector('.tecla_tom').onclick=tocaSomTom;}
+        document.querySelector('.tecla_tom').onclick=tocaSomTom;}
 
-document.querySelectorA11('.tecla');
+        const listaDeTeclas = document.querySelectorA11('.tecla');
