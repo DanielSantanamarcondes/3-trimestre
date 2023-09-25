@@ -38,3 +38,11 @@ function tocaSomToim(){
         document.querySelector('.tecla_tom').onclick=tocaSomTom;}
 
         const listaDeTeclas = document.querySelectorA11('.tecla');
+
+      let contador = 0;
+        listaDeTeclado[0].onclick = tocaSomPom;    
+
+        while(contador <listaDeTeclas.length) {
+            listaDeTeclas[contador].onclick = tocaSomPom;
+            contador = contador + 1;
+        }    
