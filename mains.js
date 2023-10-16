@@ -10,8 +10,13 @@ document.querySelector(idElementoAudio).play();
       let contador = 0;
        
         while(contador <listaDeTeclas.length) {
-            listaDeTeclas[contador].onclick = function(){
+      const tecla = listaDeTeclas[contador];
+          const instrumento = tecla.classList[1];
+                  '#som_ ${instrumento}';
+                  console.log(idAudio);
+          console.log(instrumento);
+        tecla.onclick = function () {
                 tocaSom('#som_tecla_splash');
-            };
             contador = contador + 1;
-        }  
+        };
+          }
